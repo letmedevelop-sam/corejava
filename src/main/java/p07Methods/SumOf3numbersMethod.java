@@ -2,6 +2,7 @@ package p07Methods;
 
 public class SumOf3numbersMethod {
     public static void main(String[] args) {
+
 		/*
 		 Write a method that calculates the sum of 3 numbers
 		 */
@@ -16,5 +17,6 @@ public class SumOf3numbersMethod {
         sum = a + b + c;
 
         System.out.println("Sum of " + a + "+" + b + "+" + c + " is " + sum);
+
     }
 }
