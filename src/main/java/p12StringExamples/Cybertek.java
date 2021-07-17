@@ -1,4 +1,4 @@
-package p11StringManipulation;
+package p12StringExamples;
 
 public class Cybertek {
 
