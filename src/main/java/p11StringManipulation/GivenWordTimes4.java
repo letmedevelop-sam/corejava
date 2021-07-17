@@ -1,6 +1,6 @@
 package p11StringManipulation;
 
-public class StringTimes4 {
+public class GivenWordTimes4 {
 
 	public static void main(String[] args) {
 		/*  Write a program to create a new String word with writing all characters in given word 4 times
