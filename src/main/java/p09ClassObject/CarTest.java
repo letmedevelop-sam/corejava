@@ -1,6 +1,6 @@
 package p09ClassObject;
 
-public class CarObjects {
+public class CarTest {
 
 	public static void main(String[] args) {
 
