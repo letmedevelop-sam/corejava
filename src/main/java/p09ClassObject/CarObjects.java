@@ -20,9 +20,8 @@ public class CarObjects {
 		
 		System.out.println("Before : " + car1.currentSpeed);
 		
-		car1.accelerate(10);
+		car1.accelerate(15);
 		
 		System.out.println("After : " + car1.currentSpeed);
-		
 	}
 }
