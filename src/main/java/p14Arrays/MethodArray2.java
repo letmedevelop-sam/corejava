@@ -6,11 +6,7 @@ import java.util.Scanner;
 public class MethodArray2 {
 
 	public static void main(String[] args) {
-
-
 		System.out.println(findCar(3, "Honda"));
-
-		
 
 	}
 
@@ -24,9 +20,7 @@ public class MethodArray2 {
 			System.out.println("Enter your car # : " + (i+1));
 			carArray[i] = input.nextLine();
 		}
-		
 		return carArray;
-		
 	}
 	
 	public static boolean findCar(int value, String toFindCar) {
@@ -34,14 +28,9 @@ public class MethodArray2 {
 		for(String car : createArray(value)){
 			
 			if(car.equalsIgnoreCase(toFindCar)) {
-				
 				return true;
 			}
-			
-					
 		}
 		return false;
-		
-			
 	}
 }
