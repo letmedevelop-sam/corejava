@@ -1,0 +1,5 @@
+Buffered streams
+perform I/O operations on buffers,
+and call native OS API only
+when the buffer
+is empty.
